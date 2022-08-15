@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    transition: .5s;
+}
+section{
+    padding: 100px 0px;
+}
+header {
+    background-color: #87509c;
+    color: #fff;
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+.underline{
+    width: 5%;
+    border-bottom: 3px solid #14a58c;
+    margin:20px auto ;
+}
+nav{
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.logo-part{
+    width: 50%;
+    float: left;
+    text-align: start;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+    text-align: right;
+}
+ li {
+    list-style: none;
+    display: inline-block;
+}
+.menu-part a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-part a:hover{
+    background-color:#00000068;
+    border-radius: 5px;
+
+}
+#service{
+    width: 100%;
+    float: left;
+    background-color: #17c2a4;
+    color: #fff;
+    
+
+}
+.sarvice-writing-part{
+    width: 100%;
+    float: left;
+
+}
+.sarvice-writing-part h1 {
+    font-size: 45px;
+}
+.p{
+    width: 30%;
+    font-size: 18px;
+    margin: auto;
+}
+.sarvice-box-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+
+}
+.sarvice-box{
+    width: 25%;
+    float: left;
+    padding: 70px 0px;
+}
+.sarvice-box-part h2 {
+    font-size: 30px;
+    padding: 30px 0px;
+
+}
+.sarvice-box-part p {
+    width: 50%;
+    font-size: 18px;
+    margin: auto;
+}
+#team{
+    padding: 100px 0px;
+    width: 100%;
+    float: left;
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+#team .underline{
+    border-color: #c8d9e5;
+}
+#team .sarvice-box-part h2{
+    padding-bottom: 10px;
+}
+#team .sarvice-box-part .color{
+    color: #30bae7;
+    padding-bottom: 15px;
+}
+.contact{
+    padding: 25px;
+}
+.img{
+    padding: 0px 7px;
+}
+#skill{
+    padding: 100px 0px;
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    color: #3c4761;
+}
+#skill .underline{
+    border-color: #dfe8ed;
+}
+#portfolio{
+    width: 100%;
+    float: left;
+    background-color: #ffdd99;
+    color: #393939;
+}
+#portfolio .underline{
+    border-color: #e5c37f;
+}
+.sarvice-writing-part a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #393939;
+    font-weight: 500;
+    margin: 10px;
+    padding: 9px 10px 10px ;
+    background-color: #ebc985;
+    border-radius: 5px;
+}
+.sarvice-writing-part ul{
+    padding: 50px;
+}
+.sarvice-writing-part a:hover{
+    background-color:#ffffff ;
+    border-radius: 5px;
+}
+.portfolio-box-part{
+    width: 100%;
+    float: left;
+}
+.portfolio-box{
+    width: 50%;
+    float: left;
+    padding: 70px;
+}
+.submit{
+    background-color: #14a58c;
+    width: 25%;
+    padding: 25px;
+    border-radius: 8PX;
+    font-size: 19PX;
+    color: #ffffff;
+}
+#about{
+    width: 100%;
+    float: left;
+    background-color: #d74680;
+    color: #ffffff;
+}
+#about .underline{
+    border-color:#b73c6d;
+}
+.about-box-part{
+    width: 100%;
+    float: left;
+    padding: 50px;
+}
+.about-box{
+    width: 50%;
+    float: left;
+}
+.php{
+    width: 75%;
+    float: left;
+    
+    text-align: left;
+}
+.ph{
+    width: 25%;
+    float: left;
+}
+.comment{
+    width: 40%;
+    font-size: 18px;
+}
+.tag{
+    color: #ffdd99;
+    
+}
+.php h2{
+    padding: 30px 0px 0px;
+}
+#get{
+    background-color: #3c5499;
+    color: #ffffff;
+    padding: 100px 300px;
+}
+#get .underline{
+    border-color: #273a71;
+}
+.get-box1 input{
+    width: 40%;
+    padding: 22px;
+    background-color: #273a71;
+    border-radius: 6px;
+    margin: 50px 20px 20px;
+}
+.get-box input{
+    width: 84%;
+    padding: 22px 22px 200px;
+    background-color: #273a71;
+    border-radius: 6px;
+}
+.SEND{
+    background-color: #30bae7;
+    width: 25%;
+    padding: 25px;
+    border-radius: 8PX;
+    font-size: 19PX;
+    color: #ffffff;
+    margin: 50px 0px;
+}
+footer{
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    background-color: #344b8e;
+    padding: 20px;
+}
+.social a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin: 10px;
+    padding: 10px;
+}
+.social a:hover{
+    color: #30bae7;
+}
